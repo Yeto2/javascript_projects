@@ -1,0 +1,46 @@
+body{
+    background-color: #eee;
+}
+.container {
+    width: max-content;
+    margin: 55px auto 0px;
+}
+ul.palett {
+    background-color: #ddd;
+    padding: 6px 8px;
+    list-style: none;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 23px auto;
+}
+ul li {
+    width: 60px;
+    height: 60px;
+    border: 2px solid transparent;
+    opacity: 0.4;
+    transition: 0.4s;
+    cursor: pointer;
+}
+li.active , li:hover{
+    opacity: 1;
+}
+ul li:nth-child(1){
+    background-color: red;
+}
+ul li:nth-child(2){
+    background-color: green;
+}
+ul li:nth-child(3){
+    background-color: blue;
+}
+ul li:nth-child(4){
+    background-color: black;
+}
+
+.screen {
+width: 600px;
+height: 300px;
+background-color: red;
+}
